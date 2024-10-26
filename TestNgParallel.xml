@@ -7,16 +7,4 @@
             <class name="tests.UserRegistrationParallelTest"/>
         </classes>
     </test>
-    <test name="FireFox Regression Test">
-        <parameter name="browser" value="firefox"></parameter>
-        <classes>
-            <class name="tests.UserRegistrationParallelTest"/>
-        </classes>
-    </test>
-    <test name="MicrosoftEdge Regression Test">
-        <parameter name="browser" value="MicrosoftEdge"></parameter>
-        <classes>
-            <class name="tests.UserRegistrationParallelTest"/>
-        </classes>
-    </test>
 </suite>

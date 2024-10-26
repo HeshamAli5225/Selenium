@@ -10,6 +10,7 @@ public class LoadProperties {
 
 
     public static Properties userData=loadProperties("src/main/java/properties/userData.properties");
+    public static Properties sauceLabsData=loadProperties("src/main/java/properties/sauceLabsUser.properties");
 
     private static Properties loadProperties(String path){
         Properties pro=new Properties();

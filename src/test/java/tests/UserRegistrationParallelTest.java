@@ -13,8 +13,11 @@ public class UserRegistrationParallelTest extends TestBase2{
     UserRegistrationPage registrationPage;
     @Test(priority = 1,alwaysRun = true)
     public void UserCanRegisterSuccessfully() throws InterruptedException {
-        homePage=new HomePage(getDriver());
-        registrationPage =new UserRegistrationPage(getDriver());
+//        homePage=new HomePage(getDriver());
+//        registrationPage =new UserRegistrationPage(getDriver());
+
+        homePage=new HomePage(driver);
+        registrationPage =new UserRegistrationPage(driver);
 
         //System.out.println(homePage.);
         //homePage.human();
